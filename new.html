@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Erasto Javascript</title>
+    <link rel="stylesheet" href="muras.js">
+    <link rel="stylesheet" href="muras.css">
+    <script>
+        function showDate(){
+            window.alert("Welcome");
+            console.log(5+6);
+            window.print("hello world");
+    document.getElementById('time').innerHTML = Date();
+       
+ }
+    </script>
+    
+</head>
+<body> 
+   
+    <p id="well">Welcome erastus</p>
+    <button type="button" onclick='document.getElementById("well").innerHTML = "Hello javascript"'> click me</button>
+    <br>
+    <br>
+    <button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
+    <br>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+<br>
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+<h1 id="w3">welcome to javascript tutorials</h1>
+<button type="button" onclick='document.getElementById("w3").style.fontSize = "40px"'>press</button>
+<br>
+<br>
+<p id="mur">will you like to know more about javascript?</p>
+<button type="button" onclick="document.getElementById('mur').style.display = 'none'">view</button>
+<button type="button" onclick="document.getElementById('mur').style.display = 'block'">view 2</button>
+<P id="dekut">Welcome to Dedan kimathi university of Technology</P>
+<h2>Dekut</h2>
+<h2>Date button</h2>
+<button type="button" onclick='showDate()'>click</button>
+<p id="time">The Time is..</p>
+</body>
+</html>
